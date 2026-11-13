@@ -7,11 +7,11 @@ Fiz as correções por problema e executei novamente os testes após cada altera
 
 ## 1. Conversão de moedas e precisão monetária
 
-Causa raiz: a conversão dividia o valor pela taxa de câmbio e utilizava float em cálculos que deveriam permanecer em Decimal, pois float perte precisão.
+Causa raiz: a conversão dividia o valor pela taxa de câmbio e utilizava float em cálculos que deveriam permanecer em Decimal, reparei que estava sendo a feita a conversão para float, o que é desnecessario ja que float perte precisão.
 
 Analisei a função convert_to_brl e identifiquei que a operação estava invertida. Para converter o valor para reais, é necessário multiplicar a quantia pela taxa rate_to_brl.
 
-Também removi as conversões intermediárias para float A operação passou a ser:
+Também removi as conversões  para float A operação passou a ser:
 return amount * rate
 
 Após a alteração, o teste de conversão passou.

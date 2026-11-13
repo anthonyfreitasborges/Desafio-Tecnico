@@ -44,7 +44,7 @@ def test_nights_within_same_month(tmp_path):
 ## Conversa 2 — Ordenação dos hotéis
 
 ### meu prompt
-[tenho um lista em python, que quarda dicionarios, e estou usando reverse, para fazer a ordenação decrecente, porem em caso de um empate eu tenho que filtrar a partir de um id por exemplo, como eu faria?.]
+[tenho um lista em python, que quarda  dicionarios, e estou usando reverse, para fazer a ordenação decrecente, porem em caso de um empate eu tenho que filtrar a partir de um id por exemplo, como eu faria?.]
 
 ### ChatGPT
 Você pode definir dois critérios na key: o primeiro para ordenar pelo valor e o segundo para desempatar pelo ID.

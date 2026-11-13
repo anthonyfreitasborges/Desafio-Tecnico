@@ -5,7 +5,7 @@ Modelo: modelo gratuito, versão chatweb.
 
 ## Participação da IA
 
-Utilizei a IA para apoiar a compreensão do código  me ajustar a relembrar funções de listas que eu tinha esquecido e usei ela  criar alguns teste unitirarios.
+Utilizei a IA para apoiar a compreensão do código  me ajustar a relembrar funções de listas que eu tinha esquecido e usei ela para criar alguns teste unitirarios.
 
 
 ## Minha participação
